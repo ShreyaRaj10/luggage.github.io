@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  nav {
+    border-bottom: 2px solid grey;
+  }
+  
+  .nav-bar {
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 25px;
+  }
+  
+  .nav-bar h1 {
+    font-size: 30px;
+  }
+  
+  .nav-bar img {
+    height: 100px;
+  }
+  
+  .icon i {
+    font-size: 30px;
+  }
+  
+  .ticket {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    background-color: rgba(121, 155, 247, 0.386);
+    margin: 50px auto;
+    padding: 25px;
+    border-radius: 10px;
+  }
+  
+  .inner-ticket {
+    height: 450px;
+    width: 450px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  .air-logo img {
+    height: 35px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+  }
+  
+  .ticket-header {
+    justify-content: end;
+    gap: 150px;
+    padding: 10px;
+  }
+  
+  .ticket-header h3 {
+    font-size: 15px;
+  }
+  
+  .ticket-detail {
+    align-items: start;
+    justify-content: space-between;
+  }
+  
+  .scanner img {
+    height: 300px;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .detail li {
+    padding: 10px;
+    text-align: end;
+  }
+  
+  .detail li p {
+    font-size: 20px;
+  }
+  
+  .detail li h4 {
+    font-size: 20px;
+  }
+  
+  .destination {
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: grey;
+  }
+  
+  .destination i {
+    font-size: 30px;
+    color: orangered;
+  }
+  
+  .d1,
+  .d2 {
+    text-align: center;
+  }
+  
+  .destination h3 {
+    font-size: 25px;
+  }
+  
+  .destination p {
+    font-size: 20px;
+  }
+  
+  .cicle {
+    margin-inline: 35%;
+    gap: 5px;
+  }
+  
+  .cicle i {
+    font-size: 10px;
+  }
+  
+  .cicle li {
+    color: gray;
+  }
+  
+  .cicle li:nth-child(1) {
+    color: #fff;
+  }
+  
+  .about img {
+    width: 100%;
+  }
+  
+  .features {
+    margin-top: 30px;
+    border-top: 2px solid rgba(128, 128, 128, 0.455);
+  }
+  
+  .ft {
+    padding: 10px;
+    justify-content: space-evenly;
+  }
+  
+  .ft li {
+    color: gray;
+    text-align: center;
+  }
+  
+  .ft li i {
+    font-size: 40px;
+  }
+  
+  .ft li:nth-child(3) {
+    color: navy;
+  }
+  
+  .footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .footer-icons {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-icons li {
+    text-align: center;
+  }
+  
+  .footer-icons .icon {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .footer-icons p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  
